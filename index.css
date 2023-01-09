@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/** 
+* ? asdasd
+* ! asdasd
+* * asdas
+
+
+*/
+.container {
+  /*  ana kapsayacımızı genişlik ve yükselik ayarları verdik. Flexbox sayesinde hizalamalarını yaptık. Ardından column şeklinde görünmesi için flex-direction ekledim.   */
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.content {
+  /* Text, input ve butonlar için genel bir düzenleme yapıldı. */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  background-color: #f1f1f1;
+  width: 80%;
+}
+
+.content input {
+  width: 300px;
+}
+.footer {
+  /* Footer'ımızı oluşturduk. Bir row ve 3 adet column oluşturdum. */
+  display: flex;
+  width: 80%;
+}
+.area1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 47%;
+  background-color: #7ee5da;
+}
+.area2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 17%;
+  text-align: center;
+  background-color: #70ccc2;
+  font-size: 0.8rem;
+}
+.area3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 47%;
+  text-align: center;
+  background-color: #62b3aa;
+}
